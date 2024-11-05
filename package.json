@@ -4,8 +4,7 @@
   "description": "DevBurguer API",
   "main": "src/server.js",
   "scripts": {
-    "dev": "nodemon",
-    "start": "node src/server.js"
+    "dev": "nodemon"
   },
   "author": {
     "name": "Laryssa",
