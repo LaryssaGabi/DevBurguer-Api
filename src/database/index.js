@@ -2,10 +2,10 @@ import { Sequelize } from "sequelize";
 import mongoose from "mongoose";
 // import configDatabase from '../config/database.js'
 
-import User from '../app/models/User';
-import Product from '../app/models/Product';
-import Category from '../app/models/Category';
-import Address from '../app/models/Address';
+import User from '../app/models/User.js';
+import Product from '../app/models/Product.js';
+import Category from '../app/models/Category.js';
+import Address from '../app/models/Address.js';
 import Favorite from "../app/models/Favorite.js";
 
 const models = [User, Product, Category, Address, Favorite]

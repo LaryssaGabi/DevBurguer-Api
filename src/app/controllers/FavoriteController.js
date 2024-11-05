@@ -1,6 +1,6 @@
-import Favorite from '../models/Favorite';
-import Product from '../models/Product';
-import User from '../models/User';
+import Favorite from '../models/Favorite.js';
+import Product from '../models/Product.js';
+import User from '../models/User.js';
 
 class FavoriteController {
     // Adicionar produto aos favoritos
