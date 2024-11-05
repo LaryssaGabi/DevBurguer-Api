@@ -1,4 +1,4 @@
-import app from './app.js'
+import App from './app.js'
 
 const port = 3001;
-app.listen(port, () => console.log(`Server is running on port ${port}!`));
+App.listen(port, () => console.log(`Server is running on port ${port}!`));
